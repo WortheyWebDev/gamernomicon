@@ -21,8 +21,14 @@ cd gamernomicon
 
 ## Screenshots
 
+### Main Menu
+![Menu](https://github.com/WortheyWebDev/gamernomicon/blob/main/screenshots/gamernomicon-menu-screenshot.png?raw=true)
+
+### March
+![March](https://github.com/WortheyWebDev/gamernomicon/blob/main/screenshots/gamernomicon-march-screenshot.png?raw=true)
+
 ### June
-![June](https://raw.githubusercontent.com/WortheyWebDev/gamernomicon/main/screenshots/gamernomicon-june-screenshot)
+![June](https://github.com/WortheyWebDev/gamernomicon/blob/main/screenshots/gamernomicon-june-screenshot.png?raw=true)
 ---
 
 Thank you for taking a look at my design! 
