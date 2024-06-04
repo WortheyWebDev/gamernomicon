@@ -22,7 +22,7 @@ cd gamernomicon
 ## Screenshots
 
 ### June
-![June]((https://raw.githubusercontent.com/WortheyWebDev/gamernomicon/main/screenshots/gamernomicon-june-screenshot)
+![June](https://raw.githubusercontent.com/WortheyWebDev/gamernomicon/main/screenshots/gamernomicon-june-screenshot)
 ---
 
 Thank you for taking a look at my design! 
