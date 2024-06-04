@@ -1,0 +1,164 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-attachment: fixed;
+	background: linear-gradient(-100deg, black, #202020);
+}
+
+p {
+	color: white;
+	font-family: "Helvetica";
+	padding: 5px;
+}
+
+.gamesList {
+	margin: 20px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.gameArt {
+	border: 1px solid #64BF6A;
+	box-shadow: 0 4px 8px 0 black;
+	display: inline-block;
+	margin: 20px 25px;
+	max-height: 430x;
+	max-width: 266.67px;
+}
+
+.unreleased {
+	filter: grayscale(100%);
+}
+
+.gameArt p {
+	background-color: #64BF6A;
+}
+
+.gameArt img {
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.gameArt:hover {
+	border: 1px solid #eccf42;
+}
+
+.gameArt:hover p {
+	background-image: linear-gradient(#eccf42, #FFF08D);
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+	background-image: linear-gradient(to right, #202020, #333, #686868, #333, #202020);
+	border-bottom: 1px solid white;
+	box-shadow: 0 4px 8px 0 black;
+	color: white;
+	display: block;
+	font-family: "Helvetica";
+	letter-spacing: 4px;
+	padding: 4px 0px;
+	position: sticky;
+	text-align: center;
+	top: 65px;
+	z-index: 1;
+}
+
+#mainMenu {
+	list-style-type: none;
+	border-style: solid;
+	border-width: 3px;
+	border-image: linear-gradient(to right, black, #b29700, #eccf42, #fff08d, #eccf42, #b29700, black) 1;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-family: "Helvetica";
+	position: fixed;
+	width: 100%;
+	font-weight: bold;
+	font-size: 20px;
+	z-index: 2;
+	text-align: center;
+}
+
+#mainMenu li {
+	float: none;
+	display: inline-block;
+}
+
+#mainMenu li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+}
+
+#mainMenu li a:hover {
+	background-color: #111;
+}
+
+#mainMenu a:active {
+	color: gold;
+}
+
+#logo {
+	position: fixed;
+	z-index: 2;
+	height: 50px;
+	width: 202.78px;
+	left: 15px;
+	top: 6px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #111;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+	border: 1px solid #fff08d;
+	border-top: 0;
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: 15px;
+}
+
+.dropdown-content a:hover {
+	background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+a {
+	scroll-margin-top: 65px;
+}
