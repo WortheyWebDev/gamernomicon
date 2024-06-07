@@ -22,7 +22,7 @@ cd gamernomicon
 ## Screenshots
 
 ### Main Menu
-![Menu](https://github.com/WortheyWebDev/gamernomicon/blob/main/screenshots/gamernomicon-menu-screenshot.png?raw=true)
+![Menu](https://github.com/WortheyWebDev/gamernomicon/blob/main/screenshots/gamernomicon-menu1-screenshot.png?raw=true)
 
 ### March
 ![March](https://github.com/WortheyWebDev/gamernomicon/blob/main/screenshots/gamernomicon-march-screenshot.png?raw=true)
